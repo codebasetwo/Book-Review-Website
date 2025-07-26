@@ -11,12 +11,12 @@ from .errors import register_all_errors
 from .middleware import register_middleware
 
 
-@asynccontextmanager
-async def life_span(app: FastAPI):
-    print("server is starting..")
-    await init_db()
-    yield
-    print("Server stopped!")
+# @asynccontextmanager
+# async def life_span(app: FastAPI):
+#     print("server is starting..")
+#     await init_db()
+#     yield
+#     print("Server stopped!")
 
 
 description = """
