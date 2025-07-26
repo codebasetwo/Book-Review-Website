@@ -1,3 +1,13 @@
+# variables
 .env
+# virtual environment
 .venv/
+
+# python
 __pycache__/
+
+# schemathesis
+.hypothesis
+
+# pytest
+.pytest_cache
